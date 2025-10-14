@@ -1,4 +1,4 @@
-# 🧠 Human Activity Recognition Using EDA Sensor Data
+# 🧠 Human Activity Recognition
 
 This project focuses on **recognizing human activities** and **relative movement patterns** based on multi-sensor data (Accelerometer, Gyroscope, and EDA – Electrodermal Activity).  
 It combines **exploratory data analysis (EDA)** and **feature engineering** to prepare sensor signals for model training and evaluation.-->
@@ -82,5 +82,5 @@ pip install -r requirements.txt
 ```
 
 📚 References
-- AIO Coffee Team
+- This project references the original work from the AIO Coffee Team. It is a personal sandbox where I experiment, test, and try adding new features.
 - [Human-Activity-Recognition – GitHub Repository](https://github.com/ma-shamshiri/Human-Activity-Recognition)
