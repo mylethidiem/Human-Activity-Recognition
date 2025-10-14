@@ -8,7 +8,7 @@ It combines **exploratory data analysis (EDA)** and **feature engineering** to p
 ## 🚀 Project Overview
 
 <!-- Human Activity Recognition (HAR) is a fundamental problem in **wearable computing** and **IoT applications**,  
-where the goal is to automatically classify activities such as *walking*, *sitting*, *running*, or *working* using motion and physiological data. --/>
+where the goal is to automatically classify activities such as *walking*, *sitting*, *running*, or *working* using motion and physiological data. -->
 
 In this project, we:
 - Generate **synthetic sensor data** to simulate real human movement.
@@ -75,10 +75,11 @@ $$
 conda create -n your_env python=3.11
 conda activate your_env
 conda install -n your_env ipykernel --update-deps --force-reinstall
+```
 ### 2️⃣ Install Dependencies
-  ```bash
-  pip install -r requirements.txt
-  ```
+```bash
+pip install -r requirements.txt
+```
 
 📚 References
 - AIO Coffee Team
