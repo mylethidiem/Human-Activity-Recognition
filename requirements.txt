@@ -1,0 +1,15 @@
+zenml>=0.90.0
+zenml[local]
+zenml[server]==0.90.0
+pandas>=2.0.0
+pyarrow
+numpy>=1.24.0
+scikit-learn>=1.3.0
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.6.0
+pytest>=8.0.0
+python-dateutil>=2.8.2
+matplotlib
+bokeh
+pandas

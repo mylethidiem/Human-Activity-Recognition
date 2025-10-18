@@ -1,0 +1,22 @@
+Generate synthetic time-series sensor data that mimics the structure and dynamics of human motion sensor readings.
+The dataset must have exactly 7 columns:
+
+Timestamp: ISO 8601 format, incrementing sequentially every 0.5 seconds.
+
+Accel_x, Accel_y, Accel_z: 3-axis accelerometer readings (float values typically between -20 and 20 m/s²).
+
+Gyro_x, Gyro_y, Gyro_z: 3-axis gyroscope readings (float values typically between -5 and 5 °/s).
+
+Requirements:
+
+Preserve realistic correlations across axes (e.g., smooth transitions, short-term oscillations).
+
+Maintain consistent sampling rate and time continuity.
+
+Add natural measurement noise (±0.1 for accelerometer, ±0.01 for gyroscope).
+
+Generate at least 10000 consecutive rows.
+
+Output in CSV format with header row.
+
+Format as downloadable CSV
